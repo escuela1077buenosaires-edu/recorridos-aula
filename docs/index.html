@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#176f73">
+  <title>Actividades por grado y divisi&oacute;n</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <span>Escuela 1077 &quot;Provincia de Buenos Aires&quot;</span>
+      <h1>Actividades por grado y divisi&oacute;n</h1>
+      <p>Abra su turno, seleccione el grado y luego su divisi&oacute;n.</p>
+    </header>
+    <section class="panel" aria-labelledby="treeTitle">
+      <div class="panel-head">
+        <div>
+          <h2 id="treeTitle">Cursos</h2>
+          <p>Las carpetas muestran solamente las actividades habilitadas.</p>
+        </div>
+        <button id="clearMemory" type="button">Volver al inicio del &aacute;rbol</button>
+      </div>
+      <div id="status" class="status" role="status">Cargando actividades...</div>
+      <div id="courseTree" class="course-tree" aria-live="polite"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
