@@ -1,5 +1,17 @@
 {
   "version": 1,
-  "actualizadaEn": "2026-09-06T20:54:58.605Z",
-  "asignaciones": []
+  "actualizadaEn": "2026-09-06T22:23:39.086Z",
+  "asignaciones": [
+    {
+      "id": "2caf486cab4e",
+      "titulo": "Matematica Mediciones Convencionales Y O Arbitrarias Por Compar 3Grado",
+      "area": "Matematica",
+      "grado": "3",
+      "turno": "manana",
+      "division": "A",
+      "orden": 1,
+      "url": "https://escuela1077buenosaires-edu.github.io/actividades-rapidas-1077/actividades/mtkd4ui7-4cb91e-Matematica-Mediciones-Convencionales-Y-O-Arbitrarias-Por-Compar-3Grado.html",
+      "actualizadaEn": "2026-09-06T22:23:39.086Z"
+    }
+  ]
 }
