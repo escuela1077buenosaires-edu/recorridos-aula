@@ -5,6 +5,7 @@
   var tree = document.getElementById('courseTree');
   var status = document.getElementById('status');
   var storageKey = 'aie1077CursoSeleccionado';
+  var deliveryBaseUrl = String(window.AIE_ENTREGA_RESULTADOS_URL_1077 || '').trim();
 
   function text(tag, value, className) {
     var node = document.createElement(tag);
@@ -24,18 +25,33 @@
     var list = document.createElement('div');
     list.className = 'activities';
     items.forEach(function (item, index) {
-      var card = document.createElement('a');
+      var card = document.createElement('article');
       card.className = 'activity';
-      card.href = item.url;
-      card.target = '_blank';
-      card.rel = 'noopener';
       card.appendChild(text('span', String(index + 1), 'number'));
       var body = document.createElement('span');
       body.className = 'activity-text';
       body.appendChild(text('strong', item.titulo));
       body.appendChild(text('span', item.area || 'Actividad educativa'));
       card.appendChild(body);
-      card.appendChild(text('span', 'Abrir actividad', 'open-label'));
+      var actions = document.createElement('span');
+      actions.className = 'activity-actions';
+      var openLink = text('a', 'Abrir actividad', 'open-label');
+      openLink.href = item.url;
+      openLink.target = '_blank';
+      openLink.rel = 'noopener';
+      actions.appendChild(openLink);
+      if (deliveryBaseUrl) {
+        var deliveryLink = text('a', 'Entregar resultado', 'delivery-label');
+        var target = new URL(deliveryBaseUrl);
+        target.searchParams.set('asignacion', item.id);
+        target.searchParams.set('turno', item.turno);
+        target.searchParams.set('grado', item.grado);
+        target.searchParams.set('division', item.division);
+        target.searchParams.set('actividad', item.titulo);
+        deliveryLink.href = target.toString();
+        actions.appendChild(deliveryLink);
+      }
+      card.appendChild(actions);
       list.appendChild(card);
     });
     return list;
