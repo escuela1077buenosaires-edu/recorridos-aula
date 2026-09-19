@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "actualizadaEn": "2026-09-06T22:25:52.294Z",
+  "actualizadaEn": "2026-09-19T01:29:52.148Z",
   "asignaciones": [
+    {
+      "id": "2074dd76da59",
+      "titulo": "Matematica Suma Parametrizable Maximo 100 Con Palitos Orden De Sumnados 1 2 3 4 5 6 7",
+      "area": "Matematica",
+      "grado": "1",
+      "turno": "manana",
+      "division": "A",
+      "orden": 1,
+      "url": "https://escuela1077buenosaires-edu.github.io/actividades-rapidas-1077/actividades/mttes324-7c608c-Matematica-Suma-Parametrizable-Maximo-100-Con-Palitos-Orden-De-Sumnados-1-2-3-4-5-6-7.html",
+      "actualizadaEn": "2026-09-19T01:29:52.148Z"
+    },
     {
       "id": "89359d5533d5",
       "titulo": "Matematica Mediciones Convencionales Y O Arbitrarias Por Compar 3Grado",
