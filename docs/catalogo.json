@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizadaEn": "2026-09-19T23:49:15.812Z",
+  "actualizadaEn": "2026-09-21T12:21:07.654Z",
   "asignaciones": [
     {
       "id": "2074dd76da59",
@@ -56,6 +56,17 @@
       "orden": 1,
       "url": "https://escuela1077buenosaires-edu.github.io/actividades-rapidas-1077/actividades/mtkd4ui7-4cb91e-Matematica-Mediciones-Convencionales-Y-O-Arbitrarias-Por-Compar-3Grado.html",
       "actualizadaEn": "2026-09-06T22:25:36.342Z"
+    },
+    {
+      "id": "723fc1990d8f",
+      "titulo": "Matematica Multiplicacion Parametrizable Con Sin Decimales CoheteALaLuna Sopa Letra",
+      "area": "Matematica",
+      "grado": "4",
+      "turno": "manana",
+      "division": "A",
+      "orden": 1,
+      "url": "https://escuela1077buenosaires-edu.github.io/actividades-rapidas-1077/actividades/mub7qc5y-b83197-Matematica-Multiplicacion-Parametrizable-Con-Sin-Decimales-CoheteALaLuna-Sopa-Letra.html",
+      "actualizadaEn": "2026-09-21T12:21:07.654Z"
     },
     {
       "id": "bc1d1776f6c3",
