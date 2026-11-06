@@ -1,6 +1,21 @@
 {
   "version": 1,
   "repositorio": "escuela1077buenosaires-edu/recorridos-aula",
-  "actualizadaEn": "2026-10-02T16:24:09.533Z",
-  "asignaciones": []
+  "actualizadaEn": "2026-11-06T22:58:53.825Z",
+  "asignaciones": [
+    {
+      "id": "00234d3f259f",
+      "actividadRapidaId": "mspgg3hq-eb7bd4",
+      "titulo": "Lengua Escribir Palabras Sonidos M y S 1",
+      "area": "Lengua",
+      "turno": "manana",
+      "grado": "1",
+      "division": "A",
+      "orden": 1,
+      "url": "https://escuela1077buenosaires-edu.github.io/actividades-rapidas-1077/actividades/mspgg3hq-eb7bd4-Lengua-Escribir-Palabras-Sonidos-M-y-S-1.html",
+      "habilitada": true,
+      "creadaEn": "2026-11-06T22:58:53.825Z",
+      "actualizadaEn": "2026-11-06T22:58:53.825Z"
+    }
+  ]
 }
