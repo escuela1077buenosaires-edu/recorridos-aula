@@ -6,6 +6,7 @@
   var status = document.getElementById('status');
   var storageKey = 'aie1077CursoSeleccionado';
   var deliveryBaseUrl = String(window.AIE_ENTREGA_RESULTADOS_URL_1077 || '').trim();
+  var workDeliveryBaseUrl = String(window.AIE_ENTREGA_TRABAJOS_URL_1077 || '').trim();
 
   function text(tag, value, className) {
     var node = document.createElement(tag);
@@ -35,19 +36,27 @@
       card.appendChild(body);
       var actions = document.createElement('span');
       actions.className = 'activity-actions';
-      var openLink = text('a', 'Abrir actividad', 'open-label');
+      var isWork = item.tipoEntrega === 'trabajo';
+      var openLink = text('a', isWork ? 'Descargar consigna' : 'Abrir actividad', 'open-label');
       openLink.href = item.url;
-      openLink.target = '_blank';
-      openLink.rel = 'noopener';
+      if (isWork) openLink.download = '';
+      else {
+        openLink.target = '_blank';
+        openLink.rel = 'noopener';
+      }
       actions.appendChild(openLink);
-      if (deliveryBaseUrl) {
-        var deliveryLink = text('a', 'Entregar resultado', 'delivery-label');
-        var target = new URL(deliveryBaseUrl);
+      var formUrl = isWork ? workDeliveryBaseUrl : deliveryBaseUrl;
+      if (formUrl) {
+        var deliveryLink = text('a', isWork ? 'Entregar trabajo' : 'Entregar resultado', 'delivery-label');
+        var target = new URL(formUrl);
         target.searchParams.set('asignacion', item.id);
-        target.searchParams.set('turno', item.turno);
-        target.searchParams.set('grado', item.grado);
-        target.searchParams.set('division', item.division);
-        target.searchParams.set('actividad', item.titulo);
+        if (isWork) target.searchParams.set('vista', 'trabajo');
+        else {
+          target.searchParams.set('turno', item.turno);
+          target.searchParams.set('grado', item.grado);
+          target.searchParams.set('division', item.division);
+          target.searchParams.set('actividad', item.titulo);
+        }
         deliveryLink.href = target.toString();
         actions.appendChild(deliveryLink);
       }
