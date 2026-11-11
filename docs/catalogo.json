@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizadaEn": "2026-11-06T22:58:53.825Z",
+  "actualizadaEn": "2026-11-11T01:07:34.953Z",
   "asignaciones": [
     {
       "id": "00234d3f259f",
@@ -13,6 +13,18 @@
       "url": "https://escuela1077buenosaires-edu.github.io/actividades-rapidas-1077/actividades/mspgg3hq-eb7bd4-Lengua-Escribir-Palabras-Sonidos-M-y-S-1.html",
       "tipoEntrega": "resultado",
       "actualizadaEn": "2026-11-06T22:58:53.825Z"
+    },
+    {
+      "id": "e500f9bfff3b",
+      "titulo": "Animales Albinos",
+      "area": "Otros trabajos",
+      "grado": "1",
+      "turno": "manana",
+      "division": "A",
+      "orden": 2,
+      "url": "https://escuela1077buenosaires-edu.github.io/recorridos-aula/trabajos/e500f9bfff3b-animales-albinos.docx",
+      "tipoEntrega": "trabajo",
+      "actualizadaEn": "2026-11-11T01:07:34.953Z"
     }
   ]
 }
