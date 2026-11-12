@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repositorio": "escuela1077buenosaires-edu/recorridos-aula",
-  "actualizadaEn": "2026-11-11T01:09:42.910Z",
+  "actualizadaEn": "2026-11-12T12:19:17.630Z",
   "asignaciones": [
     {
       "id": "00234d3f259f",
@@ -31,21 +31,6 @@
       "habilitada": true,
       "creadaEn": "2026-11-11T01:07:34.953Z",
       "actualizadaEn": "2026-11-11T01:07:34.953Z"
-    },
-    {
-      "turno": "manana",
-      "grado": "7",
-      "division": "A",
-      "id": "0ce52c0b7605",
-      "titulo": "Animales Albinos 7 grado",
-      "area": "Otros trabajos",
-      "tipoEntrega": "trabajo",
-      "orden": 1,
-      "archivoConsigna": "0ce52c0b7605-animales-albinos-7-grado.docx",
-      "url": "https://escuela1077buenosaires-edu.github.io/recorridos-aula/trabajos/0ce52c0b7605-animales-albinos-7-grado.docx",
-      "habilitada": true,
-      "creadaEn": "2026-11-11T01:09:42.910Z",
-      "actualizadaEn": "2026-11-11T01:09:42.910Z"
     }
   ]
 }
