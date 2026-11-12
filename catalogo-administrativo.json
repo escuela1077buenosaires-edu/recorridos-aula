@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repositorio": "escuela1077buenosaires-edu/recorridos-aula",
-  "actualizadaEn": "2026-11-12T12:19:17.630Z",
+  "actualizadaEn": "2026-11-12T12:21:39.216Z",
   "asignaciones": [
     {
       "id": "00234d3f259f",
@@ -31,6 +31,21 @@
       "habilitada": true,
       "creadaEn": "2026-11-11T01:07:34.953Z",
       "actualizadaEn": "2026-11-11T01:07:34.953Z"
+    },
+    {
+      "turno": "manana",
+      "grado": "7",
+      "division": "A",
+      "id": "18226b364e1f",
+      "titulo": "Trabajo Práctico - Lengua - Día del Celador",
+      "area": "Otros trabajos",
+      "tipoEntrega": "trabajo",
+      "orden": 1,
+      "archivoConsigna": "18226b364e1f-trabajo-practico-lengua-dia-del-celador.docx",
+      "url": "https://escuela1077buenosaires-edu.github.io/recorridos-aula/trabajos/18226b364e1f-trabajo-practico-lengua-dia-del-celador.docx",
+      "habilitada": true,
+      "creadaEn": "2026-11-12T12:21:39.216Z",
+      "actualizadaEn": "2026-11-12T12:21:39.216Z"
     }
   ]
 }

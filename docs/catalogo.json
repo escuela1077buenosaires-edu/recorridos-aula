@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizadaEn": "2026-11-12T12:19:17.630Z",
+  "actualizadaEn": "2026-11-12T12:21:39.216Z",
   "asignaciones": [
     {
       "id": "00234d3f259f",
@@ -25,6 +25,18 @@
       "url": "https://escuela1077buenosaires-edu.github.io/recorridos-aula/trabajos/e500f9bfff3b-animales-albinos.docx",
       "tipoEntrega": "trabajo",
       "actualizadaEn": "2026-11-11T01:07:34.953Z"
+    },
+    {
+      "id": "18226b364e1f",
+      "titulo": "Trabajo Práctico - Lengua - Día del Celador",
+      "area": "Otros trabajos",
+      "grado": "7",
+      "turno": "manana",
+      "division": "A",
+      "orden": 1,
+      "url": "https://escuela1077buenosaires-edu.github.io/recorridos-aula/trabajos/18226b364e1f-trabajo-practico-lengua-dia-del-celador.docx",
+      "tipoEntrega": "trabajo",
+      "actualizadaEn": "2026-11-12T12:21:39.216Z"
     }
   ]
 }
